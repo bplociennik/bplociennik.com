@@ -1,0 +1,127 @@
+disqusShortname = "bplociennik"
+baseURL = "https://bplociennik.com/"
+title = "Bartosz Płóciennik"
+languageCode = "en"
+theme = "soho"
+paginate = 5
+
+DefaultContentLanguage = "pl"
+
+[languages]
+  [languages.pl]
+    weight = 1
+    languageName = "PL"
+    languageCode = "pl"
+    contentDir = "content/polish"
+    titleDescription = "programowanie, podróże, życie"
+  [languages.en]
+    weight = 2
+    languageName = "EN"
+    languageCode = "en"
+    contentDir = "content/english"
+    titleDescription = "programming, travels, life"
+
+enableInlineShortcodes = true
+summarylength = 10
+enableEmoji = true
+
+[params]
+author = "Bartosz Płóciennik"
+profilePicture = "static/profile.png"
+copyright = "Bartosz Płóciennik"
+themeColor = "#057584"
+
+## Set as many as you want.
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/bartosz-plociennik/"
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/bplociennik"
+
+[[params.socialIcons]]
+icon = "fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/bplociennik_"
+
+[menu]
+  [[languages.en.menu.main]]
+  name = "Home"
+  weight = 100
+  identifier = "home"
+  url = "/en/"
+
+  [[languages.en.menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/en/posts/"
+
+  [[languages.en.menu.main]]
+  name = "Categories"
+  weight = 300
+  identifier = "categories"
+  url = "/en/categories/"
+
+  [[languages.en.menu.main]]
+  name = "Tags"
+  weight = 400
+  identifier = "tags"
+  url = "/en/tags/"
+
+  [[languages.en.menu.main]]
+  name = "About"
+  identifier = "about"
+  weight = 500
+  url = "/en/about/"
+
+  # === Polish ===
+  [[languages.pl.menu.main]]
+  name = "Strona główna"
+  weight = 100
+  identifier = "home"
+  url = "/"
+
+  [[languages.pl.menu.main]]
+  name = "Posty"
+  weight = 200
+  identifier = "posts"
+  url = "/posts/"
+
+  [[languages.pl.menu.main]]
+  name = "Kategorie"
+  weight = 300
+  identifier = "categories"
+  url = "/categories/"
+
+  [[languages.pl.menu.main]]
+  name = "Tagi"
+  weight = 400
+  identifier = "tags"
+  url = "/tags/"
+
+  [[languages.pl.menu.main]]
+  name = "O mnie"
+  identifier = "about"
+  weight = 500
+  url = "/about/"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[markup]
+  [markup.profilePicture]
+  codeFences = true
+  guessSyntax = false
+  hl_Lines = ""
+  lineNoStart = 1
+  lineNos = false
+  lineNumbersInTable = true
+  noClasses = true
+  style = "monokai"
+  tabWidth = 4
