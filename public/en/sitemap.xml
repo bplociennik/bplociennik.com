@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://bplociennik.com/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://bplociennik.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bplociennik.com/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://bplociennik.com/en/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://bplociennik.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bplociennik.com/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://bplociennik.com/en/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://bplociennik.com/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bplociennik.com/en/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://bplociennik.com/en/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://bplociennik.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bplociennik.com/en/tags/"
+                />
+  </url>
+  
+</urlset>
