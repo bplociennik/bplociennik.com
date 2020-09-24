@@ -4,19 +4,20 @@ title = "Bartosz Płóciennik"
 languageCode = "en"
 theme = "soho"
 paginate = 5
+builtWith = true
 
 DefaultContentLanguage = "pl"
 
 [languages]
   [languages.pl]
     weight = 1
-    languageName = "PL"
+    languageName = "Polski"
     languageCode = "pl"
     contentDir = "content/polish"
     titleDescription = "programowanie, podróże, życie"
   [languages.en]
     weight = 2
-    languageName = "EN"
+    languageName = "English"
     languageCode = "en"
     contentDir = "content/english"
     titleDescription = "programming, travels, life"
@@ -29,7 +30,7 @@ enableEmoji = true
 author = "Bartosz Płóciennik"
 profilePicture = "static/profile.png"
 copyright = "Bartosz Płóciennik"
-themeColor = "#057584"
+themeColor = "#2d6682"
 
 ## Set as many as you want.
 [[params.socialIcons]]
