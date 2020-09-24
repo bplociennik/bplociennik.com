@@ -1,4 +1,5 @@
 disqusShortname = "bplociennik"
+googleAnalytics = "UA-173395383-1"
 baseURL = "https://bplociennik.com/"
 title = "Bartosz Płóciennik"
 languageCode = "en"
@@ -59,7 +60,7 @@ url = "https://twitter.com/bplociennik_"
   name = "Posts"
   weight = 200
   identifier = "posts"
-  url = "/en/posts/"
+  url = "/en/post/"
 
   [[languages.en.menu.main]]
   name = "Categories"
@@ -90,7 +91,7 @@ url = "https://twitter.com/bplociennik_"
   name = "Posty"
   weight = 200
   identifier = "posts"
-  url = "/posts/"
+  url = "/post/"
 
   [[languages.pl.menu.main]]
   name = "Kategorie"

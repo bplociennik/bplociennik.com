@@ -5,6 +5,7 @@ date: 2020-09-20
 aliases: ["about-us","about-hugo"]
 author: "Hugo Authors"
 draft: true
+disable_comments: true
 ---
 
 ...
