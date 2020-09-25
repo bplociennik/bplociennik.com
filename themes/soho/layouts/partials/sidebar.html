@@ -32,9 +32,9 @@
       {{ range $item := .Site.Params.socialIcons }}
       <a
         href="{{ $item.url }}"
-        rel="me"
         title="{{ $item.title }}"
         target="_blank"
+        rel="noopener"
       >
         <i class="fab {{ $item.icon }}" aria-hidden="true"></i>
       </a>
