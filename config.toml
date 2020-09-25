@@ -29,7 +29,7 @@ enableEmoji = true
 
 [params]
 author = "Bartosz Płóciennik"
-profilePicture = "static/profile.png"
+profilePicture = "static/profile.webp"
 copyright = "Bartosz Płóciennik"
 themeColor = "#2d6682"
 
