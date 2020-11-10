@@ -1,11 +1,12 @@
 ---
-title: "O mnie"
-description: "Hugo, the world’s fastest framework for building websites"
+title: O mnie
+description: Hugo, the world’s fastest framework for building websites
 date: 2020-09-20
-aliases: ["about-us","about-hugo"]
-author: "Hugo Authors"
-draft: true
+aliases:
+- about-us
+- about-hugo
+author: Hugo Authors
 disable_comments: true
----
 
+---
 ...
