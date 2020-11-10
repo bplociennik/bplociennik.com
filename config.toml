@@ -15,13 +15,7 @@ DefaultContentLanguage = "pl"
     languageName = "Polski"
     languageCode = "pl"
     contentDir = "content/polish"
-    titleDescription = "programowanie, podróże, życie"
-  [languages.en]
-    weight = 2
-    languageName = "English"
-    languageCode = "en"
-    contentDir = "content/english"
-    titleDescription = "programming, travels, life"
+    titleDescription = "python, django, programowanie, technologie, dobre praktyki"
 
 enableInlineShortcodes = true
 summarylength = 10
@@ -50,36 +44,6 @@ title = "Twitter"
 url = "https://twitter.com/bplociennik_"
 
 [menu]
-  [[languages.en.menu.main]]
-  name = "Home"
-  weight = 100
-  identifier = "home"
-  url = "/en/"
-
-  [[languages.en.menu.main]]
-  name = "Posts"
-  weight = 200
-  identifier = "posts"
-  url = "/en/post/"
-
-  [[languages.en.menu.main]]
-  name = "Categories"
-  weight = 300
-  identifier = "categories"
-  url = "/en/categories/"
-
-  [[languages.en.menu.main]]
-  name = "Tags"
-  weight = 400
-  identifier = "tags"
-  url = "/en/tags/"
-
-  [[languages.en.menu.main]]
-  name = "About"
-  identifier = "about"
-  weight = 500
-  url = "/en/about/"
-
   # === Polish ===
   [[languages.pl.menu.main]]
   name = "Strona główna"

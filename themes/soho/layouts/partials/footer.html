@@ -1,14 +1,6 @@
 <footer>
   <div>
     &copy; {{ $.Site.Params.Copyright }} {{ now.Format "2006"}}
-
     &middot; Build with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://themes.gohugo.io/soho/" target="_blank" rel="noopener">Soho</a> theme
-
-    &middot;{{ $currentLang := .Site.Language.Lang }}
-    {{ range $.Site.Home.AllTranslations }}
-        {{ if not (eq $currentLang .Site.Language.Lang) }}
-            <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
-        {{ end }}
-    {{ end }}
   </div>
 </footer>
