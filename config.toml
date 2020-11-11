@@ -14,7 +14,7 @@ DefaultContentLanguage = "pl"
     weight = 1
     languageName = "Polski"
     languageCode = "pl"
-    contentDir = "content/polish"
+    contentDir = "content"
     titleDescription = "python, django, programowanie, technologie, dobre praktyki"
 
 enableInlineShortcodes = true
