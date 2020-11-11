@@ -61,19 +61,19 @@ url = "https://twitter.com/bplociennik_"
   name = "Kategorie"
   weight = 300
   identifier = "categories"
-  url = "/kategorie/"
+  url = "/categories/"
 
   [[languages.pl.menu.main]]
   name = "Tagi"
   weight = 400
   identifier = "tags"
-  url = "/tagi/"
+  url = "/tags/"
 
   [[languages.pl.menu.main]]
   name = "O mnie"
   identifier = "about"
   weight = 500
-  url = "/o-mnie/"
+  url = "/about/"
 
 [taxonomies]
   category = "categories"

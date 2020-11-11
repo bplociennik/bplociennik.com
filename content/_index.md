@@ -1,5 +1,5 @@
 +++
-title = "Soho Theme"
-author = "Hugo Authors"
+title = "bplociennik.com"
+author = "Bartosz Płóciennik"
 +++
 
