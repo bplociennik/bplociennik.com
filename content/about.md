@@ -21,7 +21,7 @@ Co jeszcze? **Vue** oraz **AWS**
 
 ### A po pracy...
 
-staram oderwać się od ekranu i próbuje nowych zajawek ale mam swoich szczególnych ulubieńców:
+staram oderwać się od ekranu i próbować nowych zajawek, ale mam swoich szczególnych faworytów:
 
 * Góry i wspinaczka (chyba prawie każdy z IT lubi się wspinać),
 * Bieganie,
