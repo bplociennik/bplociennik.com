@@ -2,7 +2,7 @@ disqusShortname = "bplociennik"
 googleAnalytics = "UA-173395383-1"
 baseURL = "https://bplociennik.com/"
 title = "Bartosz Płóciennik"
-languageCode = "en"
+languageCode = "pl"
 theme = "soho"
 paginate = 5
 builtWith = true
@@ -61,19 +61,19 @@ url = "https://twitter.com/bplociennik_"
   name = "Kategorie"
   weight = 300
   identifier = "categories"
-  url = "/categories/"
+  url = "/kategorie/"
 
   [[languages.pl.menu.main]]
   name = "Tagi"
   weight = 400
   identifier = "tags"
-  url = "/tags/"
+  url = "/tagi/"
 
   [[languages.pl.menu.main]]
   name = "O mnie"
   identifier = "about"
   weight = 500
-  url = "/about/"
+  url = "/o-mnie/"
 
 [taxonomies]
   category = "categories"
