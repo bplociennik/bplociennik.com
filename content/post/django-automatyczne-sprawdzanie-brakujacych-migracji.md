@@ -9,11 +9,7 @@ title = "Django automatyczne sprawdzanie brakujących migracji"
 +++
 Każdemu wcześniej czy później, senior czy junior zdarzy się zapomnieć o odpaleniu `makemigrations`. Oczywiście nie jest to tragedia - szybko możemy do naprawić no ale jest to za każdym razem strata czasu, który łatwo możemy zaoszczędzić :)
 
-W tym wpisie chciałbym Wam pokazać parę sposobów na to jak zautomatyzować sobie ten proces i jak najszybciej wychwycić brakujące migracje.
-
- 
-
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme. <!--more-->
+W tym wpisie chciałbym Wam pokazać parę sposobów na to jak zautomatyzować sobie ten proces i jak najszybciej wychwycić brakujące migracje.<!--more-->
 
 ## Headings
 
