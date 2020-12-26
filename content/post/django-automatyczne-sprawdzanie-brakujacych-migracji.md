@@ -7,6 +7,12 @@ tags = []
 title = "Django automatyczne sprawdzanie brakujących migracji"
 
 +++
+Każdemu wcześniej czy później, senior czy junior zdarzy się zapomnieć o odpaleniu `makemigrations`. Oczywiście nie jest to tragedia - szybko możemy do naprawić no ale jest to za każdym razem strata czasu, który łatwo możemy zaoszczędzić :)
+
+W tym wpisie chciałbym Wam pokazać parę sposobów na to jak zautomatyzować sobie ten proces i jak najszybciej wychwycić brakujące migracje.
+
+ 
+
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme. <!--more-->
 
 ## Headings
@@ -57,25 +63,17 @@ Alice | 23
 
 #### Inline Markdown within tables
 
-| Inline    | Markdown    | In    | Table |
+| Inline | Markdown | In | Table |
 | --- | --- | --- | --- |
-| italics | bold | strikethrough    | code |
+| italics | bold | strikethrough | code |
 
 ## Code Blocks
 
 #### Code block with backticks
 
-    html
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <title>Example HTML5 Document</title>
-    </head>
-    <body>
-      <p>Test</p>
-    </body>
-    </html>
+    <?php
+    
+    ?>
 
 #### Code block indented with four spaces
 
