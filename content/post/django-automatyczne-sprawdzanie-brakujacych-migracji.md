@@ -3,7 +3,7 @@ author = "Bartosz Płóciennik"
 date = 2020-12-25T23:00:00Z
 description = "Czasem zdarzy się nam zapomieć o wykonaniu makemigrations - warto zabezpieczyć się przed tym i zautomatyzować sprawdzanie brakujących migracji"
 draft = true
-tags = []
+tags = ["makemigrations", "unittest", "pytest", "django"]
 title = "Django automatyczne sprawdzanie brakujących migracji"
 
 +++
