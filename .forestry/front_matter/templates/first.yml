@@ -19,4 +19,5 @@ fields:
   name: tags
   label: tags
 pages:
+- content/post/django-automatyczne-sprawdzanie-brakujacych-migracji.md
 - content/post/szybki-i-latwe-udostepnianie-plikow-przez-konsole.md
