@@ -1,93 +1,128 @@
-disqusShortname = "bplociennik"
-googleAnalytics = "UA-173395383-1"
 baseURL = "https://bplociennik.com/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+
+author = "Bartosz Płóciennik"
 title = "Bartosz Płóciennik"
-languageCode = "pl"
-theme = "soho"
-paginate = 5
-builtWith = true
+theme = "hugo-vitae"
+paginate = 10
+enableRobotsTXT = true
 
-DefaultContentLanguage = "pl"
+pygmentsstyle = "colorful"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
-[languages]
-  [languages.pl]
-    weight = 1
-    languageName = "Polski"
-    languageCode = "pl"
-    contentDir = "content"
-    titleDescription = "python, django, programowanie, technologie, dobre praktyki"
+googleAnalytics = "UA-173395383-1"
+copyright = "© Copyright notice | [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
 
-enableInlineShortcodes = true
-summarylength = 10
-enableEmoji = true
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+	series = "series"
+
 
 [params]
-author = "Bartosz Płóciennik"
-profilePicture = "static/profile.webp"
-copyright = "Bartosz Płóciennik"
-themeColor = "#2d6682"
+	# Use homepage.md instead of a list of posts
+	homepage = false
 
-## Set as many as you want.
-[[params.socialIcons]]
-icon = "fa-linkedin"
-title = "Linkedin"
-url = "https://www.linkedin.com/in/bartosz-plociennik/"
+	# Add meta keywords in head part (Site Keywords or Tags of Page)
+	keywords = ["python","django","fastapi","web development"]
 
-[[params.socialIcons]]
-icon = "fa-github"
+	# Add meta description in head part
+	description = "bplociennik.com | just my personal blog mostly for myself"
+
+	# Add pagetitle to homepage <title> tag
+	pagetitle = "bplociennik.com | python web development, fastapi, django and more"
+
+	# Add a subtitle to your website
+	subtitle = "Mostly focused on web development with python help"
+
+	# Add math typesetting with KaTeX (Global with this Param)
+	math = true
+
+	# Optional 80x80 avatar image.
+	avatar = "static/profile.webp"
+
+	# Optional favicons for website
+	#favicon = true
+
+	# Add list of sections that should show up on the homepage
+        mainSections = ["post"]
+
+	# Add list of Sections/Types that should no be considered by RSS
+	#nofeedSections = ["post"]
+
+	# Deactivate Taxonomies for specific page types
+	#disableTaxoTypes = [""]
+
+	# Custom CSS applied to default styles. (Path could be "static/css/")
+	#customCSS = "css/custom.css"
+
+
+# Navigation
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[[menu.main]]
+name = "Categories"
+url = "/categories"
+weight = 5
+
+# Social Menu
+[[params.social]]
+icon = "fab fa-github"
 title = "GitHub"
 url = "https://github.com/bplociennik"
 
-[[params.socialIcons]]
-icon = "fa-twitter"
-title = "Twitter"
-url = "https://twitter.com/bplociennik_"
+[[params.social]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/bartosz-plociennik/"
 
-[menu]
-  # === Polish ===
-  [[languages.pl.menu.main]]
-  name = "Strona główna"
-  weight = 100
-  identifier = "home"
-  url = "/"
+[[params.social]]
+name = "RSS"
+icon = "fas fa-rss"
+url = "/index.xml"
 
-  [[languages.pl.menu.main]]
-  name = "Posty"
-  weight = 200
-  identifier = "posts"
-  url = "/post/"
 
-  [[languages.pl.menu.main]]
-  name = "Kategorie"
-  weight = 300
-  identifier = "categories"
-  url = "/categories/"
+# Comments
+[params.comments]
+enabled = true
 
-  [[languages.pl.menu.main]]
-  name = "Tagi"
-  weight = 400
-  identifier = "tags"
-  url = "/tags/"
+# Comment provider:
+engine = "disqus"
 
-  [[languages.pl.menu.main]]
-  name = "O mnie"
-  identifier = "about"
-  weight = 500
-  url = "/about/"
+# Content types to disable comments on.
+#disableOnTypes = ["page"]
 
-[taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
+[params.comments.disqus]
+shortname = "bplociennik"
 
-[markup]
-  [markup.profilePicture]
-  codeFences = true
-  guessSyntax = false
-  hl_Lines = ""
-  lineNoStart = 1
-  lineNos = false
-  lineNumbersInTable = true
-  noClasses = true
-  style = "monokai"
-  tabWidth = 4
+
+#[markup]
+#  [markup.profilePicture]
+#  codeFences = true
+#  guessSyntax = false
+#  hl_Lines = ""
+#  lineNoStart = 1
+#  lineNos = false
+#  lineNumbersInTable = true
+#  noClasses = true
+#  style = "monokai"
+#  tabWidth = 4
+
+#enableInlineShortcodes = true
+#summarylength = 10
+#enableEmoji = true
