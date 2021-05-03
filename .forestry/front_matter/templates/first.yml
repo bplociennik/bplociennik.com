@@ -1,0 +1,23 @@
+---
+label: First
+hide_body: false
+fields:
+- type: text
+  name: author
+  label: author
+  default: Bartosz Płóciennik
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: description
+  label: description
+- type: list
+  name: tags
+  label: tags
+pages:
+- content/post/django-automatyczne-sprawdzanie-brakujacych-migracji.md
+- content/post/szybki-i-latwe-udostepnianie-plikow-przez-konsole.md
