@@ -2,6 +2,9 @@
 publish = "public"
 commmand = "hugo"
 
+[context.production.environment]
+  HUGO_VERSION = "0.82.1"
+
 [[headers]]
   for = "/css/*"
   [headers.values]
