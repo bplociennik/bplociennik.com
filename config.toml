@@ -4,9 +4,10 @@ defaultContentLanguage = "en"
 
 author = "Bartosz Płóciennik"
 title = "Bartosz Płóciennik"
-theme = "hugo-vitae"
+theme = "hugo-vitae-3"
 paginate = 10
 enableRobotsTXT = true
+enableEmoji = true
 
 pygmentsstyle = "colorful"
 pygmentscodefences = true
@@ -35,7 +36,7 @@ copyright = "© Copyright notice | [Vitae](https://github.com/dataCobra/hugo-vit
 	pagetitle = "bplociennik.com | python web development, fastapi, django and more"
 
 	# Add a subtitle to your website
-	subtitle = "Mostly focused on web development with python help"
+	subtitle = "<code>> hi there! _</code>"
 
 	# Add math typesetting with KaTeX (Global with this Param)
 	math = true
@@ -125,4 +126,3 @@ shortname = "bplociennik"
 
 #enableInlineShortcodes = true
 #summarylength = 10
-#enableEmoji = true
