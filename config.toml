@@ -106,7 +106,7 @@ enabled = true
 engine = "disqus"
 
 # Content types to disable comments on.
-#disableOnTypes = ["page"]
+disableOnTypes = ["page"]
 
 [params.comments.disqus]
 shortname = "bplociennik"
