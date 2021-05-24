@@ -33,7 +33,7 @@ copyright = "© Copyright notice | [Vitae](https://github.com/dataCobra/hugo-vit
 	description = "bplociennik.com"
 
 	# Add pagetitle to homepage <title> tag
-	pagetitle = "Bartosz Płóciennik | bplociennik.com"
+	pagetitle = "bplociennik.com"
 
 	# Add a subtitle to your website
 	subtitle = "<code>> hi there! _</code>"
