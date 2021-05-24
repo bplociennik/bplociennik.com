@@ -27,13 +27,13 @@ copyright = "© Copyright notice | [Vitae](https://github.com/dataCobra/hugo-vit
 	homepage = false
 
 	# Add meta keywords in head part (Site Keywords or Tags of Page)
-	keywords = ["python","django","fastapi","web development"]
+	keywords = ["python","django","fastapi","golang","web development"]
 
 	# Add meta description in head part
-	description = "bplociennik.com | just my personal blog mostly for myself"
+	description = "bplociennik.com"
 
 	# Add pagetitle to homepage <title> tag
-	pagetitle = "bplociennik.com | python web development, fastapi, django and more"
+	pagetitle = "Bartosz Płóciennik | bplociennik.com"
 
 	# Add a subtitle to your website
 	subtitle = "<code>> hi there! _</code>"
@@ -42,7 +42,7 @@ copyright = "© Copyright notice | [Vitae](https://github.com/dataCobra/hugo-vit
 	math = true
 
 	# Optional 80x80 avatar image.
-	avatar = "static/profile.webp"
+	avatar = "static/bartosz_plociennik.webp"
 
 	# Optional favicons for website
 	#favicon = true
