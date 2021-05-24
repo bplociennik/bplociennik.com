@@ -1,5 +1,6 @@
 +++
 title = "About"
+date = "2021-05-01"
 description = "Bartosz Płóciennik who am I"
 aliases = ["about", "contact", "info"]
 +++
