@@ -11,10 +11,10 @@ Every day I mostly work with 🐍 and a bit in Golang.
 
 This blog will be mostly for [me from the future](https://www.youtube.com/watch?v=Psxktpxkc6o) to document my code solutions and find them easily in the future.
 
-I hope you will also find here something useful :smiley:
+I hope you will find something useful here :smiley:
 
 ## Hobbies
-If you do not find me :computer: then probably I will be somewhere:
+If you do not find me :computer: then probably I will be somewhere here:
 - around rocks, because I'm a freak of climbing [:goat:](https://www.youtube.com/watch?v=f0jMzdbEui0)
 - me :running: in the woods
 - in the mountains

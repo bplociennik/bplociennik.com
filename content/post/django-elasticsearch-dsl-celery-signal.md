@@ -6,11 +6,11 @@ tags = ["django", "django-elasticsearch-dsl", "celery", "elasticsearch"]
 categories = ["python", "django""]
 +++
 
-In most of the projects where I was using Elasticsearch, performance was an important thing so every possible to reduce response time was a great opportunity to consider.
+In most of the projects where I was using Elasticsearch, performance was an important thing so every possibility to reduce response time was a great opportunity to consider.
 
 django-elasticsearch-dsl by default is not supporting rebuilding indexes for Elasticsearch in the background.
 
-Lucky we, there is possible to change the [default signal](https://django-elasticsearch-dsl.readthedocs.io/en/latest/settings.html#elasticsearch-dsl-signal-processor) from `RealTimeSignalProcessor` to a custom one. So we can easily move the rebuilding calculation to our Celery worker and return something for the user much faster.
+Lucky us, there is possible to change the [default signal](https://django-elasticsearch-dsl.readthedocs.io/en/latest/settings.html#elasticsearch-dsl-signal-processor) from `RealTimeSignalProcessor` to a custom one. So we can easily move the rebuilding calculation to our Celery worker and return something for the user much faster.
 
 ## How to use it?
 
@@ -42,13 +42,13 @@ class CelerySignalProcessor(RealTimeSignalProcessor):
         )
 {{< /highlight >}}
 
-Our signal class `CelerySignalProcessor` will be trigger based on this what do we put 
+Our signal class `CelerySignalProcessor` will be trigger based on what do we put 
 inside [setup()](https://github.com/django-es/django-elasticsearch-dsl/blob/540ed3580d97c7cb6d2eb0fc52ae1c9485c97b15/django_elasticsearch_dsl/signals.py#L82) method.
 
 Inheriting from `RealTimeSignalProcessor` class will listen for `post_save`, `post_delete`, `m2m_changed` and `pre_delete` by default,
 but in this case, I'm going to use `post_save` only.
 
-Every time that model instance will be changed `handle_save` method will delay the celery task for us.
+Every time that model instance is changed `handle_save` method will delay the celery task for us.
 
 ### **tasks.py**
 
@@ -106,12 +106,12 @@ ElasticsearchRebuildIndexesTask = app.register_task(  # type: ignore
 {{< /highlight >}}
 
 This task based on passed data is getting proper instance from the database. 
-In the next step it's using `self.models` to obtain which method run. 
-The method returns us a list of instances on which should we update on Elasticsearch.
+Next step is using `self.models` to obtain which method to run. 
+The method returns us a list of instances on which we should update on Elasticsearch.
 
 ### **settings.py**
 
-The last step is to override the default signal and set this which we created.
+The last step is to override the default signal and set what we created.
 
 {{< highlight python >}}
 ELASTICSEARCH_DSL_SIGNAL_PROCESSOR = "search_indexes.signals.CelerySignalProcessor"
@@ -120,9 +120,9 @@ ELASTICSEARCH_DSL_SIGNAL_PROCESSOR = "search_indexes.signals.CelerySignalProcess
 ## When should you use it?
 Moving rebuilding indexes from real-time to calculate on the background is not expensive so if you start experiencing issues with response time then think about it.
 
-Imagine that we have a lot of documents on Elasticsearch like Users, Videos, Comments, and in every document, we need to store a username. So when our user will decide to change his username then we have a lot of documents to update:
+Imagine that we have a lot of documents on Elasticsearch like Users, Videos, Comments, and in every document, we need to store a username. So when our user decides to change his username then we have a lot of documents to update:
 - user object
 - all user's movies
 - all user's comments
 
-So it can take more than a few seconds and there is no need for the user to wait after a change to complete the whole process. 
+It can take more than a few seconds and there is no need for the user to wait after a change to complete the whole process. 
