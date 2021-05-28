@@ -1,7 +1,7 @@
 +++
 title = "Golang setup docker with hot reloading"
 date = "2021-05-28"
-description = "How to create a Dockerfile supporting hot reloading by CompileDaemon on Gin project example together with API documentation."
+description = "How to create a Dockerfile supporting hot reloading by CompileDaemon on Gin project example."
 tags = ["golang", "gin"]
 categories = ["golang"]
 +++
