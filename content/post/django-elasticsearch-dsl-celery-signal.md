@@ -1,9 +1,9 @@
 +++
-title = "django-elasticsearch-dsl rebuilding indexes with Celery task help"
+title = "Django-elasticsearch-dsl rebuilding indexes with Celery task help"
 date = "2021-05-24"
 description = "How to change default signal to CelerySignalProcessor and reduce the response time of the request."
 tags = ["django", "django-elasticsearch-dsl", "celery", "elasticsearch"]
-categories = ["python", "django""]
+categories = ["python", "django"]
 +++
 
 In most of the projects where I was using Elasticsearch, performance was an important thing so every possibility to reduce response time was a great opportunity to consider.
