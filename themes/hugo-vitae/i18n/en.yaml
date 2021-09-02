@@ -8,11 +8,14 @@
 - id: nojscomments
   translation: "Please enable JavaScript to load the comments."
 
-- id: authorpretext
-  translation: "Written by"
-
 - id: 404title
   translation: "HTTP-404 Error"
 
 - id: 404text
   translation: "There is not content here."
+
+- id: minutes
+  translation: "minutes"
+
+- id: words
+  translation: "words"

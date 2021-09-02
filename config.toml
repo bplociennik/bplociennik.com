@@ -4,7 +4,7 @@ defaultContentLanguage = "en"
 
 author = "Bartosz Płóciennik"
 title = "Bartosz Płóciennik"
-theme = "hugo-vitae-3"
+theme = "hugo-vitae"
 paginate = 10
 enableRobotsTXT = true
 enableEmoji = true

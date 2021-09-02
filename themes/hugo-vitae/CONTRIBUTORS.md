@@ -13,3 +13,7 @@ collaboration of others.
 * [Mochammad Ihza Rizky Karim](https://github.com/ihzarizkyk)
 * [Bernardo Ayala](https://github.com/nardoyala)
 * [Mattia Panzeri](https://github.com/panz3r)
+* [Jörg Thalheim](https://github.com/Mic92)
+* [David Kaufmann](https://github.com/davidkaufmann)
+* [Sarath Chandra Mekala](https://github.com/sarathmekala)
+* [Jeff Schoner](https://github.com/jeffschoner)
